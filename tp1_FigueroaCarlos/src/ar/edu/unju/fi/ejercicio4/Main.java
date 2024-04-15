@@ -24,6 +24,7 @@ public class Main {
 		}
 		else
 			System.out.println("el numero ingresado esta fuera del rango");
+		
 	}
 
 }
