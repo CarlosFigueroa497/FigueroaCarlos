@@ -70,24 +70,20 @@ import java.time.Period;
 	
 	public boolean esMayorEdad() {
 		return calcularEdad() >= 18;
-		
-		
-		public void mostrarDatos(){
-			
-			System.out.println("DNI:  " + dni);
-			System.out.println("Nombre:  " + nombre);
-			System.out.println("fecha de nacimiento:  " + fechaNacimiento);
-			System.out.println("provincia:  " + provincia);
-			System.out.println("edad:  " + calcularEdad());
-			if (esMayorEdad()) {
-				System.out.println("La persona es mayor de edad");
-			}else {
-				
-			}
-				
-				
-		}
-		
 	}
-
+		
+	public void mostrarDatos(){
+			
+		System.out.println("DNI:  " + dni);
+		System.out.println("Nombre:  " + nombre);
+		System.out.println("fecha de nacimiento:  " + fechaNacimiento);
+		System.out.println("provincia:  " + provincia);
+		System.out.println("edad:  " + calcularEdad());
+		if (esMayorEdad()) {
+			System.out.println("La persona es mayor de edad");
+		}else {
+			System.out.println("La persona no es mayor de edad");
+		}			
+	}
+		
 }
